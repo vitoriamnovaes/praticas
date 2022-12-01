@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-public class Janela extends JFrame {
+public class Tarefa extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField txtNumero1;
@@ -26,7 +26,7 @@ public class Janela extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Janela frame = new Janela();
+					Tarefa frame = new Tarefa();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -38,7 +38,7 @@ public class Janela extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Janela() {
+	public Tarefa() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 412, 300);
 		contentPane = new JPanel();
