@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="pratica03/src"/>
+	<classpathentry kind="src" path="pratica04/src"/>
+	<classpathentry kind="src" path="pratica05/src"/>
+	<classpathentry kind="src" path="praticas/src"/>
+	<classpathentry kind="src" path="Tarefa - Vitoria Novaes(1)/Tarefa/src"/>
+	<classpathentry kind="src" path="Tarefa - Vitoria Novaes/Tarefa/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
